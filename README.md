@@ -1,0 +1,3 @@
+# Unexpected Object Deallocation in Objective-C
+
+This repository demonstrates a common Objective-C bug involving premature object deallocation due to improper memory management.  The `bug.m` file contains code that creates an object without proper retention, leading to a crash or unexpected behavior. The solution, provided in `bugSolution.m`, addresses this by correctly managing the object's lifecycle using retain and release or ARC (Automatic Reference Counting).
